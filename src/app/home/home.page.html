@@ -1,13 +1,20 @@
 <ion-content>
-
-<ion-list class="mi-circulo" >
-
-        <h5 >Bienvenido</h5>
+    <div class="ion-text-center"> 
+            <img src="assets/Logo.png" >
+        </div>
+    <ion-list class="mi-circulo">
+        
+        <h5>Bienvenido</h5>
         <ion-item>
-            <ion-input label="Usuario" placeholder="ingrese usuario"></ion-input>
+            <ion-input label="Usuario" placeholder="Ingrese usuario"></ion-input>
         </ion-item>
-        <ion-item >
-            <ion-input label="Contraseña" type="password" value="" ></ion-input>
+        <ion-item>
+            <ion-input label="Contraseña" type="password" value=""></ion-input>
         </ion-item>
-</ion-list>
+        <ion-toggle labelPlacement="start">Recuérdame</ion-toggle>
+
+            <ion-button expand="block">Ingresar</ion-button>
+            <ion-button expand="block">Recuperar contraseña</ion-button>
+
+    </ion-list>
 </ion-content>

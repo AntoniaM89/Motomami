@@ -37,6 +37,7 @@
   
 }
 .mi-circulo ion-item{
+  display: revert;
   top: 30%;
   margin: 20px; }
 .mi-circulo h5 {
@@ -47,5 +48,24 @@
   position: relative;
 }
 ion-content {
-  --background: #74AA9B; /* Cambia el color de fondo a rojo, puedes usar cualquier color que desees */
+  --background: #74AA9B; 
 }
+ion-toggle {
+  top: 30%;
+  margin: 20px;
+}
+ion-button {
+  margin: 20px;
+  position: relative;
+  top: 25%;
+}
+img {
+  max-width: 50%; 
+  height: auto;
+  z-index: 2; 
+  position: relative;
+  top: 30px;
+}
+
+
+
