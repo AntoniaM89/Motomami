@@ -11,10 +11,12 @@
         <ion-item>
             <ion-input label="Contraseña" type="password" value=""></ion-input>
         </ion-item>
-        <ion-toggle labelPlacement="start">Recuérdame</ion-toggle>
+        <ion-toggle labelPlacement="start">
+            <span style="color: #74AA9B;">Recuérdame</span>
+        </ion-toggle>
 
             <ion-button expand="block">Ingresar</ion-button>
-            <ion-button expand="block">Recuperar contraseña</ion-button>
+            <ion-button expand="block" [routerLink]="['/rec-con']">Recuperar contraseña</ion-button>
 
     </ion-list>
 </ion-content>

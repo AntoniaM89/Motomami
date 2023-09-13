@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'ped-viaje',
     loadChildren: () => import('./ped-viaje/ped-viaje.module').then( m => m.PedViajePageModule)
+  },  {
+    path: 'rec-con',
+    loadChildren: () => import('./rec-con/rec-con.module').then( m => m.RecConPageModule)
   },
+
 ];
 
 @NgModule({
