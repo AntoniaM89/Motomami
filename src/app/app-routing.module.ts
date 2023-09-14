@@ -18,6 +18,10 @@ const routes: Routes = [
     path: 'rec-con',
     loadChildren: () => import('./rec-con/rec-con.module').then( m => m.RecConPageModule)
   },
+  {
+    path: 'casita',
+    loadChildren: () => import('./casita/casita.module').then( m => m.CasitaPageModule)
+  },
 
 ];
 
