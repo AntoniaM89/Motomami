@@ -6,8 +6,30 @@ ion-avatar {
 }
 img{
     position: relative;
-    width: 71%;
-    height: 52%;
+    height: auto;
     margin: auto;
     display: flex;
+    max-width: 70%; 
+}
+
+.text{
+    font-size: 30px;
+    color:  #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.separacion{
+    margin: 30px auto;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.us{
+    font-size: 20px;
+    color:  #ffffff;
+    text-align: center;
+    font-family: sans-serif;
 }
