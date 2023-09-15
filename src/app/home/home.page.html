@@ -6,16 +6,16 @@
         
         <h5>Bienvenido</h5>
         <ion-item>
-            <ion-input label="Usuario" placeholder="Ingrese usuario"></ion-input>
+            <ion-input label="Usuario" placeholder="Ingrese usuario" [(ngModel)]="usuario.nombre" ></ion-input>
         </ion-item>
         <ion-item>
-            <ion-input label="Contraseña" type="password" value=""></ion-input>
+            <ion-input label="Contraseña" type="password" value="" [(ngModel)]="usuario.contrasena" ></ion-input>
         </ion-item>
         <ion-toggle labelPlacement="start">
             <span style="color: #74AA9B;">Recuérdame</span>
         </ion-toggle>
 
-            <ion-button expand="block" [routerLink]="['/casita']">Ingresar</ion-button>
+            <ion-button expand="block" (click)="enviar()" >Ingresar</ion-button>
             <ion-button expand="block" [routerLink]="['/rec-con']">Recuperar contraseña</ion-button>
 
     </ion-list>

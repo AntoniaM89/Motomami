@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router,ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-casita',
   templateUrl: './casita.page.html',
@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CasitaPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private activatedRouter: ActivatedRoute) { }
 
-  ngOnInit() {
+
+  public usuario={
+    nombre:"",
+    contrasena:""
   }
-
+  ngOnInit() {
+    this.activatedRouter.queryParams.subscribe(() => {
+      let state = this.router.getCurrentNavigation()?.extras.state;
+      if (state) {
+        this.usuario.nombre = state['usuario'].nombre;
+        this.usuario.contrasena = state['usuario'].contrasena;
+        console.log(this.usuario);
+    }
+    })
+  }
 }
