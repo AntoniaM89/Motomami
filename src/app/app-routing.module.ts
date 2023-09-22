@@ -14,11 +14,21 @@ const routes: Routes = [
   {
     path: 'ped-viaje',
     loadChildren: () => import('./ped-viaje/ped-viaje.module').then( m => m.PedViajePageModule)
-  },  {
+  },
+  {
     path: 'rec-con',
     loadChildren: () => import('./rec-con/rec-con.module').then( m => m.RecConPageModule)
   },
+  {
+    path: 'not-found',
+    loadChildren: () => import('./not-found/not-found.module').then( m => m.NotFoundPageModule)
+  },
 
+
+  {path:'**',
+  redirectTo: '/not-found',
+  pathMatch: 'full'
+  }
 ];
 
 @NgModule({
