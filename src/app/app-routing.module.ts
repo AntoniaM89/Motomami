@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'ped-viaje',
     loadChildren: () => import('./ped-viaje/ped-viaje.module').then( m => m.PedViajePageModule)
-  },  {
+  },
+  {
     path: 'rec-con',
     loadChildren: () => import('./rec-con/rec-con.module').then( m => m.RecConPageModule)
   },
@@ -22,8 +23,13 @@ const routes: Routes = [
     path: 'casita',
     loadChildren: () => import('./casita/casita.module').then( m => m.CasitaPageModule)
   },
-
+  {
+    path: '**',
+    loadChildren: () => import('./e404/e404.module').then( m => m.E404PageModule)
+  }
+  ,
 ];
+
 
 @NgModule({
   imports: [
@@ -32,3 +38,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
