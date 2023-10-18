@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router,ActivatedRoute } from '@angular/router';
+import { IonicModule } from '@ionic/angular';
+import { MatIconModule } from '@angular/material/icon';
+
 @Component({
   selector: 'app-casita',
   templateUrl: './casita.page.html',
