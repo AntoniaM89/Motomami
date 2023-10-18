@@ -1,0 +1,17 @@
+.centered-content {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flujo a columna */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  ion-content {
+    --background: #ffffff; 
+}
+h2{
+    color: #74AA9B;
+}
+ion-button {
+    --ion-color-secondary: #74AA9B; /* Color del botón igual al del texto */
+  }

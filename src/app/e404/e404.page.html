@@ -1,9 +1,7 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>e404</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-img src="assets/images/404.svg"></ion-img>
+<ion-content>
+  <div class="centered-content">
+    <ion-img src="assets/404.svg"></ion-img>
+    <h2>Ups! Ha ocurrido un error</h2>
+    <ion-button expand="block" [routerLink]="['/casita']" color="secondary">Volver</ion-button>
+  </div>
 </ion-content>
