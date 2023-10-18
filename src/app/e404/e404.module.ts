@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { E404PageRoutingModule } from './e404-routing.module';
-
 import { E404Page } from './e404.page';
 
 @NgModule({
