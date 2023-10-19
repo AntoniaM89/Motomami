@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>¿Dónde vamos?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- Agregar un menú desplegable con fondo blanco debajo del encabezado -->
+  <ion-list>
+    <ion-item>
+      <ion-label>Ubicación Actual: Aquí</ion-label>
+      <ion-select interface="popover" class="white-dropdown">
+        <ion-select-option value="opcion1">Destino 1</ion-select-option>
+        <ion-select-option value="opcion2">Destino 2</ion-select-option>
+        <ion-select-option value="opcion3">Destino 3</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-img src="assets/mapa2.png"></ion-img>
+
+  <div class="cuadrado">
+    <div class="info">
+      <!-- Mantener el precio centrado -->
+      <h3 style="text-align: center;">Precio: $4,500</h3>
+      <!-- Mantener el botón -->
+      <div class="rectangulo">
+        <ion-button expand="block" [routerLink]="['/casita']" class="custom-button">Volver</ion-button>
+      </div>
+    </div>
+  </div>
+</ion-content>
