@@ -6,7 +6,7 @@ import { AutenticacionService } from '../servicios/autenticacion.service';
 @Injectable({
   providedIn: 'root'
 })
-export class AuthGuard implements CanActivate {
+export class PageProtegidoGuard  implements CanActivate {
   constructor(private router: Router, private auth: AutenticacionService) { }
   canActivate(
     route: ActivatedRouteSnapshot,

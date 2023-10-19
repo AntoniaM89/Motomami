@@ -11,7 +11,7 @@ export class StorageService {
   async init(){
     this.storage.create();
   }
-  async agregarDato(key: string, valor: string)
+  async agregarDato(key: string, valor: any)
   {
     await this.storage.set(key, valor);
   }

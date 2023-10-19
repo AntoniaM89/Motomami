@@ -7,6 +7,7 @@
 <ion-content [fullscreen]="true">
   <ion-img src="assets/mapa.png"></ion-img>
   <div class="cuadrado">
+    
     <div class="info">
       <h2>Ubicación actual: Aquí</h2>
       <div class="direccion">
@@ -15,11 +16,13 @@
       </div>
       <h3>Precio:</h3>
       <input type="text" placeholder="Ingrese el precio estimado" #precio>
+      <h3>{{destino}}</h3>
+      <h3>{{precio}}</h3>
       <div class="rectangulo">
-        <ion-button expand="block" [routerLink]="['/casita']" class="custom-button">Volver</ion-button>
+        <ion-button expand="block" (click)="buscarDato()" class="custom-button">lisrt</ion-button>
       </div>
       <div class="rectangulo">
-        <ion-button expand="block" (click)="agregarDato(usuario.nombre, destino, precio)" class="custom-button">Volver</ion-button>
+        <ion-button expand="block" (click)="agregarDato( destino, precio)" class="custom-button">Volver</ion-button>
       </div>
     </div>
   </div>
