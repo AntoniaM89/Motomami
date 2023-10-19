@@ -11,11 +11,15 @@
       <h2>Ubicación actual: Aquí</h2>
       <div class="direccion">
         <h3>Dirección de destino:</h3>
-        <input type="text" placeholder="Ingrese la dirección">
+        <input type="text" placeholder="Ingrese la dirección" #destino>
       </div>
-      <h3>Precio: $4,500</h3>
+      <h3>Precio:</h3>
+      <input type="text" placeholder="Ingrese el precio estimado" #precio>
       <div class="rectangulo">
         <ion-button expand="block" [routerLink]="['/casita']" class="custom-button">Volver</ion-button>
+      </div>
+      <div class="rectangulo">
+        <ion-button expand="block" (click)="agregarDato(usuario.nombre, destino, precio)" class="custom-button">Volver</ion-button>
       </div>
     </div>
   </div>
