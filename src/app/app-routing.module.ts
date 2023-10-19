@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { PageProtegidoGuard } from './guards/page-protegido.guard';
 
 const routes: Routes = [
   {
@@ -17,14 +18,17 @@ const routes: Routes = [
   },
   {
     path: 'ped-viaje',
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./ped-viaje/ped-viaje.module').then( m => m.PedViajePageModule)
   },
   {
     path: 'rec-con',
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./rec-con/rec-con.module').then( m => m.RecConPageModule)
   },
   {
     path: 'casita',
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./casita/casita.module').then( m => m.CasitaPageModule)
   },
   {
