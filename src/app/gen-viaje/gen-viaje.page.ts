@@ -23,7 +23,7 @@ export class GenViajePage implements OnInit {
   }
   async agregarDato( destino:string, precio: string)
   {
-    const key= this.nombre;
+
     const datos= [{"conductor": this.nombre,
                   "destino":destino, 
                   "precio":precio}];
