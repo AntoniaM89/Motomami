@@ -10,17 +10,16 @@ export class HomePage {
   nombre: string= '';
   contrasena: string= '';
   constructor(private router: Router, private Autentificacion: AtenticacionService) {}
-  
-  async loginusuario(nombre:string, contrasena:string){
+  async enviar(nombre:string, contrasena:string){
     await this. Autentificacion.login(nombre, contrasena);
+    if(this.Autentificacion.autenticado){
+      this.router.navigate(['/casita'], { state: { nombre: this.Autentificacion.nombre } });
+    }
+    else{
+      await this. Autentificacion.register(nombre, contrasena);
+      this.router.navigate(['/casita'], { state: { nombre: this.Autentificacion.nombre } });
+    }
   }
-  async agregarusuario( nombre:string, contrasena: string)
-  {
-    await this. Autentificacion.register(nombre, contrasena);
-    if (this. Autentificacion.autenticado) {
-      this.router.navigate(['/casita'], { state: { nombre: this.Autentificacion.nombre } }); 
-  }
-}
 }
 
 
