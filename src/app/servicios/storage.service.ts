@@ -5,7 +5,7 @@ import { Storage } from '@ionic/storage-angular';
   providedIn: 'root'
 })
 export class StorageService {
-
+  private data: { [key: string]: any } = [];
   constructor(private storage: Storage) {
     this.init();
   }
@@ -30,4 +30,14 @@ export class StorageService {
   {
     this.storage.remove(key)
   }
+  mostrarDestinos(): any {
+    const resultadosDestinos: { [key: string]: any } = {};
+    for (const clave in this.data) {
+      if (clave.includes('destinos')) {
+        resultadosDestinos[clave] = this.data[clave];
+      }
+    }
+    return resultadosDestinos;
+  }
 }
+

@@ -12,12 +12,14 @@
       <h2>Ubicación actual: Aquí</h2>
       <div class="direccion">
         <h3>Dirección de destino:</h3>
-        <input type="text" placeholder="Ingrese la dirección" #destino>
+        <input type="text" placeholder="Ingrese la dirección" [(ngModel)]="destino">
       </div>
       <h3>Precio:</h3>
-      <input type="text" placeholder="Ingrese el precio estimado" #precio>
-      <h3>{{destino}}</h3>
-      <h3>{{precio}}</h3>
+      <input type="text" placeholder="Ingrese el precio estimado" [(ngModel)]="precio">
+      <h3>nombre destino: {{destino}}</h3>
+      
+      <h3>precio:{{precio}}</h3>
+      
       <div class="rectangulo">
         <ion-button expand="block" (click)="buscarDato()" class="custom-button">lisrt</ion-button>
       </div>

@@ -15,29 +15,33 @@ export class GenViajePage implements OnInit {
   destino = "";
   constructor(private router: Router, private activatedRouter: ActivatedRoute, 
               private storage : StorageService, private autenticacion: AtenticacionService) { }
-  public usuario={
-    nombre:"",
-    contrasena:""
-  }
+
 
   ngOnInit() {
     this.nombre = this.autenticacion.nombre;
     console.log('Nombre de usuario recuperado:', this.nombre);
   }
-  async agregarDato( destino:HTMLInputElement, precio: HTMLInputElement)
+  async agregarDato( destino:string, precio: string)
   {
     const key= this.nombre;
-    const datos= [{"destino":destino.value, 
-                  "precio":precio.value}];
+    const datos= [{"destino":destino, 
+                  "precio":precio}];
     await this.storage.agregarDato(key, datos);
-    destino.value="",
-    precio.value=""
+    destino="",
+    precio=""
 
   }
-  async buscarDato(key: string= this.nombre)
+  async buscarDato()
   {
-    const valor= await this.storage.mostrarDato(key);
-    this.destino=valor[0].destino;
-    this.precio=valor[0].precio;
+   
+    const key =this.nombre;
+    console.log('Realizando búsqueda de datos...');
+
+    if (key === this.nombre){
+      console.log('Realizando búsqueda de datos2...');
+      const valor= await this.storage.mostrarDato(key);
+      this.destino=valor[0].destino;
+      this.precio=valor[0].precio;}
+      console.log('Destino:', this.destino, 'Precio:', this.precio);
   }
 }

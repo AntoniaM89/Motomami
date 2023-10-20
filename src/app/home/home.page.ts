@@ -11,21 +11,6 @@ export class HomePage {
   contrasena: string= '';
   constructor(private router: Router, private Autentificacion: AtenticacionService) {}
   
-  usuario = {
-  nombre: "",
-  contrasena:""
-  }
-  mensaje: string = "";
-  enviar() {
-  if (this.usuario.nombre != "") {
-    let navigationExtras: NavigationExtras = {
-      state: { usuario: this.usuario }
-    }
-    this.router.navigate(['/casita'], navigationExtras);
-  } else {
-    this.mensaje = "Debe ingresar sus credenciales";
-  }
-  }
   async loginusuario(nombre:string, contrasena:string){
     await this. Autentificacion.login(nombre, contrasena);
   }

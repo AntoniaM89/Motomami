@@ -36,13 +36,14 @@ const routes: Routes = [
     loadChildren: () => import('./e404/e404.module').then( m => m.E404PageModule)
   }
   ,
-  
   {
     path: 'gen-viaje',
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./gen-viaje/gen-viaje.module').then( m => m.GenViajePageModule)
   },
   {
     path: 'tom-viaje',
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./tom-viaje/tom-viaje.module').then( m => m.TomViajePageModule)
   },
   {path: '**',
