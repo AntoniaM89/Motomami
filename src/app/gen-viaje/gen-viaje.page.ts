@@ -3,35 +3,30 @@ import { Router,ActivatedRoute } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 import { MatIconModule } from '@angular/material/icon';
 import {StorageService} from '../servicios/storage.service';
+import { AtenticacionService } from '../servicios/autenticacion.service'
 @Component({
   selector: 'app-gen-viaje',
   templateUrl: './gen-viaje.page.html',
   styleUrls: ['./gen-viaje.page.scss'],
 })
 export class GenViajePage implements OnInit {
-  usuarionombre = "";
+  nombre = "";
   precio = "";
   destino = "";
-  nombreusuario = "";
-  constructor(private router: Router, private activatedRouter: ActivatedRoute, private storage : StorageService) { }
+  constructor(private router: Router, private activatedRouter: ActivatedRoute, 
+              private storage : StorageService, private autenticacion: AtenticacionService) { }
   public usuario={
     nombre:"",
     contrasena:""
   }
 
   ngOnInit() {
-    this.activatedRouter.queryParams.subscribe(() => {
-      let state = this.router.getCurrentNavigation()?.extras.state;
-      if (state) {
-        this.usuario.nombre = state['usuario'].nombre;
-        console.log(this.usuario);
-    }
-    })
-    this.usuarionombre = this.usuario.nombre
+    this.nombre = this.autenticacion.nombre;
+    console.log('Nombre de usuario recuperado:', this.nombre);
   }
   async agregarDato( destino:HTMLInputElement, precio: HTMLInputElement)
   {
-    const key: string = this.usuarionombre;
+    const key= this.nombre;
     const datos= [{"destino":destino.value, 
                   "precio":precio.value}];
     await this.storage.agregarDato(key, datos);
@@ -39,7 +34,7 @@ export class GenViajePage implements OnInit {
     precio.value=""
 
   }
-  async buscarDato(key: string= this.usuarionombre)
+  async buscarDato(key: string= this.nombre)
   {
     const valor= await this.storage.mostrarDato(key);
     this.destino=valor[0].destino;

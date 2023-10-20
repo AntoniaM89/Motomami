@@ -12,11 +12,10 @@ interface User {
   providedIn: 'root'
 })
 
-export class AutenticacionService {
+export class AtenticacionService {
   public autenticado!: boolean;
-
   private local!: Storage;
-
+  public nombre : string = '';
   constructor(private storage: Storage, private route: Router) {
     this.init()
   }
@@ -61,11 +60,13 @@ export class AutenticacionService {
     //caso contrario lanzamos false y no esta activo
     if (user) {
       this.autenticado = true;
+      this.nombre = username;
+      console.log('Nombre de usuario establecido:', this.nombre);
       return true;
     }
     this.autenticado = false;
     return false;
-
+    
   }
 
   logout() {
