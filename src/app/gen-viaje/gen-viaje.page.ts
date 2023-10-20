@@ -24,16 +24,16 @@ export class GenViajePage implements OnInit {
   async agregarDato( destino:string, precio: string)
   {
     const key= this.nombre;
-    const datos= [{"destino":destino, 
+    const datos= [{"conductor": this.nombre,
+                  "destino":destino, 
                   "precio":precio}];
-    await this.storage.agregarDato(key, datos);
+    await this.storage.agregarDato(datos);
     destino="",
     precio=""
 
   }
   async buscarDato()
   {
-   
     const key =this.nombre;
     console.log('Realizando búsqueda de datos...');
 

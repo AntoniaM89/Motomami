@@ -12,9 +12,10 @@ export class StorageService {
   async init(){
     this.storage.create();
   }
-  async agregarDato(key: string, valor: any)
+  async agregarDato( valor: any)
   {
-    await this.storage.set(key, valor);
+    let key = await this.storage.length()+1;
+    await this.storage.set(key.toString(), valor);
   }
   async mostrarDato(key: string)
   {
