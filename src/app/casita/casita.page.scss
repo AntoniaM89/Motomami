@@ -35,3 +35,13 @@ img{
     text-align: center;
     font-family: sans-serif;
 }
+
+ion-button.custom-button {
+    --background: white;
+    --color: #74AA9B;
+    --border-radius: 8px;
+    --padding-start: 8px;
+    --padding-end: 8px;
+    font-size: 16px;
+    text-align: center;
+}
