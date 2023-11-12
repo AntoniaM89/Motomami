@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { StorageService } from '../servicios/storage.service';
 import { AtenticacionService } from '../servicios/autenticacion.service';
+import { Geolocation } from '@capacitor/geolocation';
 @Component({
   selector: 'app-tom-viaje',
   templateUrl: './tom-viaje.page.html',
@@ -13,6 +14,11 @@ export class TomViajePage implements OnInit {
   ngOnInit() {
     this.mostrarDestinos = this.storage.mostrarDestinos();
     console.log(this.mostrarDestinos);
+    const printCurrentPosition = async () => {
+      const coordinates = await Geolocation.getCurrentPosition();
+    
+      console.log('Current position:', coordinates);
+    };
   }
 }
 
