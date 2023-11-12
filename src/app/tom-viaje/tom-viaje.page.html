@@ -24,6 +24,15 @@
       <!-- Mantener el precio centrado -->
       <h3 style="text-align: center;">Precio: $4,500</h3>
       <!-- Mantener el botón -->
+      <ion-card >
+        <ion-card-header>
+          Coordenadas Actuales
+        </ion-card-header>
+        <ion-card-content>
+          <p>Latitud: {{ coordinates.coords.latitude }}</p>
+          <p>Longitud: {{ coordinates.coords.longitude }}</p>
+        </ion-card-content>
+      </ion-card>
       <div class="rectangulo">
         <ion-button expand="block" [routerLink]="['/casita']" class="custom-button">Volver</ion-button>
       </div>

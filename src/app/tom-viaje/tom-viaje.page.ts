@@ -8,19 +8,17 @@ import { Geolocation } from '@capacitor/geolocation';
   styleUrls: ['./tom-viaje.page.scss'],
 })
 export class TomViajePage implements OnInit {
-
+  coordinates: any;
   constructor(private storage: StorageService, private autenticacion: AtenticacionService) { }
   mostrarDestinos: { [key: string]: any } = [];
-  ngOnInit() {
+  async ngOnInit() {
     this.mostrarDestinos = this.storage.mostrarDestinos();
     console.log(this.mostrarDestinos);
-    const printCurrentPosition = async () => {
-      const coordinates = await Geolocation.getCurrentPosition();
-    
-      console.log('Current position:', coordinates);
+    this.coordinates = await Geolocation.getCurrentPosition();
+    console.log('Current position:', this.coordinates);
     };
   }
-}
+
 
   
   
