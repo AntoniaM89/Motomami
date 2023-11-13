@@ -1,16 +1,17 @@
 ion-content {
     --background: #ffffff;
     position: relative;
+    padding-bottom: 100px; 
   }
   
   ion-toolbar {
     --background: #74AA9B;
   }
+
   
   .cuadrado {
-    position: absolute;
     width: 100%;
-    height: 40%;
+    height: 100%;
     background-color: #74AA9B;
     bottom: 0;
     display: flex;
@@ -43,5 +44,6 @@ ion-content {
     font-size: 14px;
   }
   #map {
-    height: 40%;
-  }
+    width: 100%;
+    height: 100%; }
+  
