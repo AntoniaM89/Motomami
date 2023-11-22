@@ -32,11 +32,13 @@
     "@capacitor/status-bar": "5.0.6",
     "@ionic/angular": "^7.0.0",
     "@ionic/storage-angular": "^4.0.0",
+    "@mapbox/mapbox-gl-directions": "^4.1.1",
     "capacitor": "^0.5.6",
     "cordova-plugin-ionic": "5.5.3",
     "ionicons": "^7.0.0",
     "leaflet": "^1.9.4",
     "mapbox-gl": "^2.15.0",
+    "mapbox-gl-directions": "^3.0.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
