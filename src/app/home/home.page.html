@@ -1,4 +1,4 @@
-<ion-content>
+<ion-content style="height: 100%;">
     <div class="ion-text-center"> 
             <img src="assets/Logo.png" >
         </div>
@@ -6,17 +6,19 @@
         
         <h5>Bienvenido</h5>
         <ion-item>
-            <ion-input label="Usuario" placeholder="Ingrese usuario" [(ngModel)]="nombre" ></ion-input>
+            <ion-input label="Correo" placeholder="Ingrese correo" [(ngModel)]="credenciales.correo" ></ion-input>
         </ion-item>
         <ion-item>
-            <ion-input label="Contraseña" type="password" value="" [(ngModel)]="contrasena"></ion-input>
+            <ion-input label="Contraseña" type="password" value=""  [(ngModel)]="credenciales.contrasena"></ion-input>
         </ion-item>
         <ion-toggle labelPlacement="start">
             <span style="color: #74AA9B;">Recuérdame</span>
         </ion-toggle>
 
-            <ion-button expand="block" (click)="enviar(nombre,contrasena)" >Ingresar</ion-button>
+        <ion-button expand="full" (click)="login()">Iniciar sesión</ion-button>
+        <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+            <ion-button expand="block" [routerLink]="['/registro']" >Registro</ion-button>
             <ion-button expand="block" [routerLink]="['/rec-con']">Recuperar contraseña</ion-button>
-
+        
     </ion-list>
 </ion-content>

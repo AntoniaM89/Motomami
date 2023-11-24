@@ -1,13 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>ped_viaje</ion-title>
-  </ion-toolbar>
-</ion-header>
+<!-- Lista de viajes -->
+<ion-list *ngIf="(viajes | async) as listaViajes">
+  <ion-item *ngFor="let viaje of listaViajes">
+    <ion-label>{{ viaje.precio }}</ion-label>
+    <p>Hora: {{ viaje.hora }}</p>
+    <p>Conductor: {{ viaje.conductorCorreo }}</p>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">ped_viaje</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+    <!-- Lista de puntos de dirección -->
+    <ion-list>
+      <ion-item *ngFor="let punto of viaje.direccion.features">
+        <ion-label>{{ punto.properties.nombre }}</ion-label>
+        <p>Coordenadas: {{ punto.geometry.coordinates | json }}</p>
+      </ion-item>
+    </ion-list>
+  </ion-item>
+</ion-list>

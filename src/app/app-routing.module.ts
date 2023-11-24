@@ -23,7 +23,6 @@ const routes: Routes = [
   },
   {
     path: 'rec-con',
-    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./rec-con/rec-con.module').then( m => m.RecConPageModule)
   },
   {
@@ -38,17 +37,34 @@ const routes: Routes = [
   ,
   {
     path: 'gen-viaje',
-    canActivate: [PageProtegidoGuard],
+
     loadChildren: () => import('./gen-viaje/gen-viaje.module').then( m => m.GenViajePageModule)
   },
   {
     path: 'tom-viaje',
-    canActivate: [PageProtegidoGuard],
+    
     loadChildren: () => import('./tom-viaje/tom-viaje.module').then( m => m.TomViajePageModule)
   },
+  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
+  },
+  {
+    path: 'casita2',
+    canActivate: [PageProtegidoGuard],
+    loadChildren: () => import('./casita2/casita2.module').then( m => m.Casita2PageModule)
+  },
+  {
+    path: 'definir-hora-precio',
+    loadChildren: () => import('./definir-hora-precio/definir-hora-precio.module').then( m => m.DefinirHoraPrecioPageModule)
+  },
+
   {path: '**',
   redirectTo: 'e404',
   pathMatch:'full'},
+ 
+ 
+
 ];
 
 

@@ -1,0 +1,2943 @@
+{
+  "usuarios": [
+    {
+      "correo": "sofia.alfaro.galaz@gmail.com",
+      "nombre": "Sofia",
+      "contrasena": "asdf",
+      "id": 1,
+      "tipo": true
+    },
+    {
+      "correo": "so.alfaro@duocuc.cl",
+      "nombre": "Sofia",
+      "contrasena": "1234",
+      "id": 2,
+      "tipo": false
+    }
+  ],
+  "viajes": [
+    {
+      "precio": 455555555,
+      "hora": "02:52",
+      "conductorCorreo": "sofia.alfaro.galaz@gmail.com",
+      "direccion": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 1"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 2"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 3"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 4"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 5"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 6"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 7"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 8"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 9"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 10"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 11"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 12"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 13"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 14"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 15"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 16"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 17"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 18"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 19"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 20"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 21"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 22"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 23"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 24"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 25"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 26"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 27"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 28"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 29"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 30"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 31"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 32"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 33"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 34"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 35"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 36"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 37"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 38"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 39"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 40"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 41"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 42"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 43"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 44"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 45"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 46"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 47"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 48"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 49"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 50"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 51"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 52"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 53"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 54"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 55"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 56"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 57"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 58"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 59"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 60"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 61"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 62"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 63"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 64"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 65"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 66"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 67"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 68"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 69"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 70"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 71"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 72"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 73"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 74"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 75"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 76"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 77"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 78"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 79"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 80"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 81"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 82"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 83"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 84"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 85"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 86"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 87"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 88"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 89"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 90"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 91"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 92"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 93"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 94"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 95"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 96"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 97"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 98"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 99"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 100"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 101"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 102"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 103"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 104"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 105"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 106"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 107"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 108"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 109"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 110"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 111"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 112"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 113"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 114"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 115"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 116"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 117"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 118"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 119"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 120"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 121"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 122"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 123"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 124"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 125"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 126"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 127"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 128"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 129"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 130"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 131"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 132"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 133"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 134"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 135"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 136"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 137"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 138"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 139"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 140"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 141"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 142"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 143"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 144"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 145"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 146"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 147"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 148"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 149"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 150"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 151"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 152"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 153"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 154"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 155"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 156"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 157"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 158"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 159"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 160"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 161"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 162"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 163"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 164"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 165"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 166"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 167"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 168"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 169"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 170"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 171"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 172"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 173"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 174"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 175"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 176"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 177"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 178"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 179"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 180"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 181"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 182"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 183"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 184"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 185"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 186"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 187"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 188"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 189"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 190"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 191"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 192"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 193"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 194"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 195"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 196"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 197"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 198"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70457458496094,
+                -33.40418198300989
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 199"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70470333099365,
+                -33.40357293787151
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 200"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70294380187988,
+                -33.403357979744506
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 201"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70556163787842,
+                -33.40740626849016
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 202"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.70272922515869,
+                -33.408194408961684
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 203"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69418907165527,
+                -33.41367536990064
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 204"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.69058418273926,
+                -33.41747243413543
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 205"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.68856716156006,
+                -33.4189052454174
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 206"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.67316055297852,
+                -33.42556750729567
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 207"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.66427707672119,
+                -33.42864773510775
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 208"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65818309783936,
+                -33.430116177332664
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 209"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.65577983856201,
+                -33.43126226131943
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 210"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.6380558013916,
+                -33.43538087572276
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 211"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.63385009765625,
+                -33.43598969779054
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 212"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62784194946289,
+                -33.43312461551977
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 213"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62548160552979,
+                -33.430796666525055
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 214"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62427997589111,
+                -33.42900589403869
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 215"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62209129333496,
+                -33.42438553039726
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 216"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.62088966369629,
+                -33.4230960826995
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 217"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61878681182861,
+                -33.42227225886602
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 218"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61458110809326,
+                -33.425746593300616
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 219"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61303615570068,
+                -33.4289700782121
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 220"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61196327209473,
+                -33.4291133414298
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 221"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.61041831970215,
+                -33.428755182942204
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 222"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60930252075195,
+                -33.43197855612594
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 223"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -70.60956001281738,
+                -33.43201437071108
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 224"
+            }
+          }
+        ]
+      },
+      "id": 1
+    }
+  ]
+}

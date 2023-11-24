@@ -4,11 +4,11 @@ import { DbService } from '../servicios/db.service';
 import { Usuario } from 'src/app/interfaces/idb';
 
 @Component({
-  selector: 'app-casita',
-  templateUrl: './casita.page.html',
-  styleUrls: ['./casita.page.scss'],
+  selector: 'app-casita2',
+  templateUrl: './casita2.page.html',
+  styleUrls: ['./casita2.page.scss'],
 })
-export class CasitaPage implements OnInit {
+export class Casita2Page implements OnInit {
   userData: Usuario | null = null;
 
   constructor( 

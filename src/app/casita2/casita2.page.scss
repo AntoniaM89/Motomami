@@ -1,0 +1,47 @@
+ion-avatar {
+    position: relative;
+    margin: auto;
+    width: 97%;
+    height: 64%;
+}
+img{
+    position: relative;
+    height: auto;
+    margin: auto;
+    display: flex;
+    max-width: 70%; 
+}
+.us[_ngcontent-ng-c1190762207] {
+    color: #000000;
+}
+.text{
+    font-size: 30px;
+    color:  #000000;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.separacion{
+    margin: 30px auto;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.us{
+    font-size: 20px;
+    color:  #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+ion-button.custom-button {
+    --background: white;
+    --color: #74AA9B;
+    --border-radius: 8px;
+    --padding-start: 8px;
+    --padding-end: 8px;
+    font-size: 16px;
+    text-align: center;
+}

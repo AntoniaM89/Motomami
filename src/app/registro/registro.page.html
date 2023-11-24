@@ -1,0 +1,22 @@
+<ion-content style="height: 100%;">
+  <div class="ion-text-center"> 
+    <img src="assets/Logo.png" >
+  </div>
+  <ion-list class="mi-circulo">
+    <h5>Bienvenido al Registro</h5>
+    <ion-item>
+      <ion-input label="Correo" placeholder="Ingrese correo" [(ngModel)]="newUsuario.correo"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Nombre" [(ngModel)]="newUsuario.nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Contraseña" type="password" [(ngModel)]="newUsuario.contrasena"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Si posee automovil presione esta casilla</ion-label>
+      <ion-toggle slot="end" [(ngModel)]="newUsuario.tipo"></ion-toggle>
+    </ion-item>
+    <ion-button expand="block" (click)="crearUsuario()">Registrarme</ion-button>
+  </ion-list>
+</ion-content>

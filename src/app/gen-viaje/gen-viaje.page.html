@@ -1,31 +1,16 @@
-<ion-header [translucent]="true">
+<!-- gen-viaje.page.html -->
+<ion-header>
   <ion-toolbar>
-    <ion-title>¿Dónde vamos?</ion-title>
+    <ion-title>
+      Generar Viaje
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-img src="assets/mapa.png"></ion-img>
-  <div class="cuadrado">
-    
-    <div class="info">
-      <h2>Ubicación actual: Aquí</h2>
-      <div class="direccion">
-        <h3>Dirección de destino:</h3>
-        <input type="text" placeholder="Ingrese la dirección" [(ngModel)]="destino">
-      </div>
-      <h3>Precio:</h3>
-      <input type="text" placeholder="Ingrese el precio estimado" [(ngModel)]="precio">
-      <h3>nombre destino: {{destino}}</h3>
-      
-      <h3>precio:{{precio}}</h3>
-      
-      <div class="rectangulo">
-        <ion-button expand="block" (click)="buscarDato()" class="custom-button">lisrt</ion-button>
-      </div>
-      <div class="rectangulo">
-        <ion-button expand="block" (click)="agregarDato( destino, precio)" class="custom-button">Volver</ion-button>
-      </div>
-    </div>
-  </div>
+<ion-content class="ion-text-center">
+  <!-- Div para el mapa -->
+  <div #map id="map"></div>
+
+  <!-- Botón para guardar direcciones con evento (click) -->
+  <ion-button (click)="guardarCoordenadas()">Guardar Direcciones</ion-button>
 </ion-content>

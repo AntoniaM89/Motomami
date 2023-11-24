@@ -24,7 +24,7 @@ export class TomViajePage implements OnInit {
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: [this.coordinates.coords.longitude, this.coordinates.coords.latitude],
-        accessToken: 'pk.eyJ1IjoiYW50b25pYTg5IiwiYSI6ImNsb3czM2hibjBlaXIycXFteml0MXZvNHAifQ.rv_0tetno62zXFX989Kzew',
+        accessToken: 'pk.eyJ1IjoiYW50b25pYTg5IiwiYSI6ImNscGJ2MXpzaTBoM3IyaWt4dTRoNXcxNGUifQ.DZVTvPAwr_4SbO0kAuxuyQ',
         zoom: 16,
       });
 

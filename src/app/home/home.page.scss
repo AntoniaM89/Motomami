@@ -34,7 +34,7 @@
   border-top-right-radius: 80% 20%;
   position: absolute;
   bottom: 0;
-  
+  overflow-y: auto;  
 }
 .mi-circulo ion-item{
   display: revert;
@@ -47,6 +47,7 @@
   padding: 15px;
   position: relative;
   color: #74AA9B;
+  
 }
 ion-content {
   --background: #74AA9B; 
@@ -68,5 +69,7 @@ img {
   top: 30px;
 }
 
-
+ion-content {
+  min-height: 100vh;
+}
 
