@@ -45,59 +45,89 @@ export class GenViajePage implements OnInit {
 
   guardarCoordenadas() {
     const directionsSource = this.map.getSource('directions');
-
+  
     if (directionsSource && directionsSource.type === 'geojson') {
       const currentDirections = this.map.querySourceFeatures('directions');
-
-      // Obtener solo las coordenadas y almacenarlas
+  
+      // Obtener solo la primera y la última coordenada y almacenarlas
       const coordinates: { lat: number; lng: number }[] = [];
-
-      for (const direction of currentDirections) {
-        const geometry = direction.geometry;
-
-        if (geometry.type === 'Point') {
-          // Para un punto, como inicio o destino
-          coordinates.push({
-            lat: geometry.coordinates[1],
-            lng: geometry.coordinates[0],
-          });
-        } else if (geometry.type === 'LineString') {
-          // Para una línea, como una ruta
-          for (const position of geometry.coordinates) {
-            const latitud = position[1];
-            const longitud = position[0];
-
-            coordinates.push({
-              lat: latitud,
-              lng: longitud,
-            });
-          }
-        } else if (geometry.type === 'MultiLineString') {
-          // Para MultiLineString, iterar sobre las coordenadas y aplanarlas
-          for (const line of geometry.coordinates) {
-            for (const position of line) {
-              const latitud = position[1];
-              const longitud = position[0];
-
-              coordinates.push({
-                lat: latitud,
-                lng: longitud,
-              });
-            }
-          }
+      
+      if (currentDirections.length > 0) {
+        // Obtener la primera y la última coordenada
+        const firstPoint = this.getFirstCoordinate(currentDirections[0]);
+        const lastPoint = this.getLastCoordinate(currentDirections[currentDirections.length - 1]);
+  
+        // Guardar la primera coordenada
+        if (firstPoint) {
+          coordinates.push(firstPoint);
         }
-      }
-
-      if (coordinates.length > 0) {
+  
+        // Guardar la última coordenada
+        if (lastPoint) {
+          coordinates.push(lastPoint);
+        }
+  
+        // Agregar un console.log para imprimir las coordenadas en la consola
+        console.log('Coordenadas:', coordinates);
+  
         // Navegar a la página para definir hora y precio con las coordenadas
         this.router.navigate(['/definir-hora-precio'], {
           state: { coordenadas: coordinates },
         });
       } else {
-        console.error('No hay coordenadas para guardar.');
+        console.error('No hay direcciones disponibles para obtener coordenadas.');
       }
     } else {
       console.error('Error: No se pudo obtener la fuente de direcciones del mapa.');
     }
   }
-}
+  
+  // Función para obtener la primera coordenada
+  private getFirstCoordinate(feature: mapboxgl.MapboxGeoJSONFeature): { lat: number; lng: number } | null {
+    const geometry = feature.geometry;
+  
+    if (geometry.type === 'Point') {
+      const coordinates = geometry.coordinates;
+  
+      if (typeof coordinates[0] === 'number' && typeof coordinates[1] === 'number') {
+        return {
+          lat: coordinates[0],
+          lng: coordinates[1],
+        };
+      }
+    }
+  
+    return null;
+  }
+  
+  // Función para obtener la última coordenada
+  private getLastCoordinate(feature: mapboxgl.MapboxGeoJSONFeature): { lat: number; lng: number } | null {
+    const geometry = feature.geometry;
+  
+    if (geometry.type === 'Point') {
+      const coordinates = geometry.coordinates;
+  
+      if (typeof coordinates[0] === 'number' && typeof coordinates[1] === 'number') {
+        return {
+          lat: coordinates[0],
+          lng: coordinates[1],
+        };
+      }
+    } else if (geometry.type === 'LineString' || geometry.type === 'MultiLineString') {
+      const coordinates = geometry.coordinates;
+  
+      if (coordinates.length > 0) {
+        const lastPosition = coordinates[coordinates.length - 1];
+  
+        if (typeof lastPosition[0] === 'number' && typeof lastPosition[1] === 'number') {
+          return {
+            lat: lastPosition[0],
+            lng: lastPosition[1],
+          };
+        }
+      }
+    }
+  
+    return null;
+  }
+}  

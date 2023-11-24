@@ -59,7 +59,7 @@ export class DefinirHoraPrecioPage implements OnInit {
             console.log('Viaje almacenado con éxito.');
 
             // Puedes realizar otras acciones aquí, como navegar a otras páginas
-            this.router.navigate(['/otra-pagina']);
+            this.router.navigate(['/casita']);
           });
         } else {
           console.error('Usuario no autenticado como conductor.');
