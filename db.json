@@ -200,6 +200,43 @@
         ]
       },
       "id": 5
+    },
+    {
+      "precio": 2222,
+      "hora": "02:40",
+      "conductorCorreo": "sofia.alfaro.galaz@gmail.com",
+      "direccion": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -33.40418198300989,
+                -70.70457458496094
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 1"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -33.43201437071108,
+                -70.60956001281738
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 2"
+            }
+          }
+        ]
+      },
+      "id": 6
     }
   ]
 }
