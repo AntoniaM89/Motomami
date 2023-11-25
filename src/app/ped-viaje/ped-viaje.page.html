@@ -1,16 +1,18 @@
-<!-- Lista de viajes -->
-<ion-list *ngIf="(viajes | async) as listaViajes">
-  <ion-item *ngFor="let viaje of listaViajes">
-    <ion-label>{{ viaje.precio }}</ion-label>
-    <p>Hora: {{ viaje.hora }}</p>
-    <p>Conductor: {{ viaje.conductorCorreo }}</p>
-
-    <!-- Lista de puntos de dirección -->
+<ion-card *ngIf="(viajes | async) as listaViajes">
+  <ion-card-content>
     <ion-list>
-      <ion-item *ngFor="let punto of viaje.direccion.features">
-        <ion-label>{{ punto.properties.nombre }}</ion-label>
-        <p>Coordenadas: {{ punto.geometry.coordinates | json }}</p>
+      <ion-item *ngFor="let viaje of listaViajes">
+        <ion-label>{{ viaje.precio }}</ion-label>
+        <p>Hora: {{ viaje.hora }}</p>
+        <p>Conductor: {{ viaje.conductorCorreo }}</p>
+
+        <!-- Lista de puntos de dirección -->
+        <ion-list>
+          <ion-item *ngFor="let punto of viaje.direccion.features">
+            <ion-label>{{ punto.properties.nombre }}</ion-label>
+          </ion-item>
+        </ion-list>
       </ion-item>
     </ion-list>
-  </ion-item>
-</ion-list>
+  </ion-card-content>
+</ion-card>

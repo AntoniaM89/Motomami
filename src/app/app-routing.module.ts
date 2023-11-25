@@ -18,7 +18,7 @@ const routes: Routes = [
   },
   {
     path: 'ped-viaje',
-    canActivate: [PageProtegidoGuard],
+    
     loadChildren: () => import('./ped-viaje/ped-viaje.module').then( m => m.PedViajePageModule)
   },
   {
@@ -37,12 +37,12 @@ const routes: Routes = [
   ,
   {
     path: 'gen-viaje',
-
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./gen-viaje/gen-viaje.module').then( m => m.GenViajePageModule)
   },
   {
     path: 'tom-viaje',
-    
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./tom-viaje/tom-viaje.module').then( m => m.TomViajePageModule)
   },
   {
@@ -56,6 +56,7 @@ const routes: Routes = [
   },
   {
     path: 'definir-hora-precio',
+    canActivate: [PageProtegidoGuard],
     loadChildren: () => import('./definir-hora-precio/definir-hora-precio.module').then( m => m.DefinirHoraPrecioPageModule)
   },
 

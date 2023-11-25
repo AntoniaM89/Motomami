@@ -1,4 +1,3 @@
-// gen-viaje.page.ts
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import * as mapboxgl from 'mapbox-gl';
@@ -12,7 +11,7 @@ import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-direct
 export class GenViajePage implements OnInit {
   @ViewChild('map', { static: true }) mapElement!: ElementRef;
   map!: mapboxgl.Map;
-  coordenadas: { lat: number; lng: number }[] = [];
+  coordenadas: { lat: number; lng: number, placeName?: string }[] = [];
 
   constructor(private router: Router) {}
 
@@ -45,31 +44,42 @@ export class GenViajePage implements OnInit {
 
   guardarCoordenadas() {
     const directionsSource = this.map.getSource('directions');
-  
+    
     if (directionsSource && directionsSource.type === 'geojson') {
       const currentDirections = this.map.querySourceFeatures('directions');
-  
+    
+      // Imprime la estructura completa de currentDirections en la consola
+      console.log('currentDirections:', currentDirections);
+    
       // Obtener solo la primera y la última coordenada y almacenarlas
-      const coordinates: { lat: number; lng: number }[] = [];
+      const coordinates: { lat: number; lng: number, placeName?: string }[] = [];
       
       if (currentDirections.length > 0) {
         // Obtener la primera y la última coordenada
         const firstPoint = this.getFirstCoordinate(currentDirections[0]);
         const lastPoint = this.getLastCoordinate(currentDirections[currentDirections.length - 1]);
-  
-        // Guardar la primera coordenada
+
+        // Obtener el nombre del lugar de la primera coordenada
+        const firstPlaceName = currentDirections[0]?.properties?.["text"] ||
+                              currentDirections[0]?.properties?.["place_name"];
+
+        // Utilizar aserción de no nulidad para acceder a la propiedad 'place_name' de la última coordenada
+        const lastPlaceName = currentDirections[currentDirections.length - 1]?.properties!["text"] ||
+                              currentDirections[currentDirections.length - 1]?.properties!["place_name"];
+
+        // Guardar la primera coordenada con nombre del lugar
         if (firstPoint) {
-          coordinates.push(firstPoint);
+          coordinates.push({ ...firstPoint, placeName: firstPlaceName });
         }
-  
-        // Guardar la última coordenada
+
+        // Guardar la última coordenada con nombre del lugar
         if (lastPoint) {
-          coordinates.push(lastPoint);
+          coordinates.push({ ...lastPoint, placeName: lastPlaceName });
         }
-  
+
         // Agregar un console.log para imprimir las coordenadas en la consola
         console.log('Coordenadas:', coordinates);
-  
+    
         // Navegar a la página para definir hora y precio con las coordenadas
         this.router.navigate(['/definir-hora-precio'], {
           state: { coordenadas: coordinates },
@@ -81,9 +91,8 @@ export class GenViajePage implements OnInit {
       console.error('Error: No se pudo obtener la fuente de direcciones del mapa.');
     }
   }
-  
-  // Función para obtener la primera coordenada
-  private getFirstCoordinate(feature: mapboxgl.MapboxGeoJSONFeature): { lat: number; lng: number } | null {
+
+  private getFirstCoordinate(feature: mapboxgl.MapboxGeoJSONFeature): { lat: number; lng: number, placeName?: string } | null {
     const geometry = feature.geometry;
   
     if (geometry.type === 'Point') {
@@ -99,9 +108,8 @@ export class GenViajePage implements OnInit {
   
     return null;
   }
-  
-  // Función para obtener la última coordenada
-  private getLastCoordinate(feature: mapboxgl.MapboxGeoJSONFeature): { lat: number; lng: number } | null {
+
+  private getLastCoordinate(feature: mapboxgl.MapboxGeoJSONFeature): { lat: number; lng: number, placeName?: string } | null {
     const geometry = feature.geometry;
   
     if (geometry.type === 'Point') {
@@ -130,4 +138,4 @@ export class GenViajePage implements OnInit {
   
     return null;
   }
-}  
+}
