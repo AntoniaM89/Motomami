@@ -41,11 +41,6 @@ const routes: Routes = [
     loadChildren: () => import('./gen-viaje/gen-viaje.module').then( m => m.GenViajePageModule)
   },
   {
-    path: 'tom-viaje',
-    canActivate: [PageProtegidoGuard],
-    loadChildren: () => import('./tom-viaje/tom-viaje.module').then( m => m.TomViajePageModule)
-  },
-  {
     path: 'registro',
     loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
   },
@@ -63,9 +58,6 @@ const routes: Routes = [
   {path: '**',
   redirectTo: 'e404',
   pathMatch:'full'},
- 
- 
-
 ];
 
 

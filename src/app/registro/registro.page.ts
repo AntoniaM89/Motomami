@@ -69,7 +69,7 @@ export class RegistroPage implements OnInit {
               if (validacionExitosa) {
                 // Si no hay errores, crear el usuario
                 this.dbServ.crearUsuario(this.newUsuario).subscribe(() => {
-                  this.router.navigateByUrl('/inicio');
+                  this.router.navigateByUrl('/home');
                 });
               }
             }

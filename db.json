@@ -13,6 +13,34 @@
       "contrasena": "1234",
       "id": 2,
       "tipo": false
+    },
+    {
+      "correo": "antoniamarambio89@gmail.com",
+      "nombre": "antonia",
+      "contrasena": "123456789",
+      "tipo": true,
+      "id": 3
+    },
+    {
+      "correo": "antoniamarambio@gmail.com",
+      "nombre": "aa",
+      "contrasena": "123456789",
+      "tipo": false,
+      "id": 4
+    },
+    {
+      "correo": "aaa@gmail.com",
+      "nombre": "aa",
+      "contrasena": "123456789",
+      "tipo": true,
+      "id": 5
+    },
+    {
+      "correo": "antoniamaramio@gmail.com",
+      "nombre": "antoniamarambio",
+      "contrasena": "123456789a",
+      "tipo": false,
+      "id": 6
     }
   ],
   "viajes": [
@@ -237,6 +265,43 @@
         ]
       },
       "id": 6
+    },
+    {
+      "precio": 1200,
+      "hora": "12:52",
+      "conductorCorreo": "aaa@gmail.com",
+      "direccion": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -33.5160662418123,
+                -71.1199951171875
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 1"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -33.453500456767735,
+                -70.68998336791992
+              ]
+            },
+            "properties": {
+              "nombre": "Punto 2"
+            }
+          }
+        ]
+      },
+      "id": 7
     }
   ]
 }

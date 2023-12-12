@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DbService } from 'src/app/servicios/db.service';
 import { Router } from '@angular/router';
 import { AutenticacionService } from '../servicios/auth.service';
 
@@ -16,7 +15,6 @@ export class HomePage implements OnInit {
   };
 
   constructor(
-    private dbServ: DbService,
     private authService: AutenticacionService,
     private router: Router
   ) {}
